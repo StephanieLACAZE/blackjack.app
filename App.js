@@ -33,7 +33,7 @@ export default function App() {
           <Text>Coucou</Text>
         }
 
-        <Button title={afficher === false ? "Afficher" : "Cacher"} onPress={handlePress} />
+        <Button title={afficher === false ? "Afficher" : ""} onPress={handlePress} />
       </View>
       <StatusBar style="auto"/>
     </View>

@@ -5,7 +5,7 @@ import {StyleSheet, Text, View} from 'react-native';
 export default function Page1(){
     return <View>
         <Text>
-            COUCOU
+           page1
         </Text>
     </View>
 }

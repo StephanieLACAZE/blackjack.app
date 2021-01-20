@@ -5,10 +5,9 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 
 
 import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Page1 from './components/Page1';
-import Page2 from './components/Page2';
-import Page3 from './components/Page3';
+import Home from './components/Home';
+import Table from './components/Table';
+import Game from './components/Game';
 
 
 

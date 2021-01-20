@@ -4,7 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 export default function Page1(){
     return <View>
         <Text>
-            Page 2
+            Page 36000
         </Text>
     </View>
 }

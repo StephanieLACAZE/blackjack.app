@@ -1,11 +1,19 @@
 import React from 'react';
-import { StyleSheet, View, Button } from 'react-native';
+import { StyleSheet, View, Button,TextInput } from 'react-native';
 
 export default function Navbar(props) {
-    return <View style={styles.navbar}>
+   
+    
+   
+   return <View style={styles.navbar}>
 <Button title="Page 1"onPress={props.onPress1}/>
 <Button title="Page 2"onPress={props.onPress2}/>
 <Button title="Page 3"onPress={props.onPress3}/>
+
+
+
+
+
 
 </View>
 }
@@ -17,5 +25,11 @@ navbar: {
     backgroundColor: '#0055ff',
     flexdirection :"row",
     justifyContent:"space-around",
-}
+},
+
+
+
+
+
+
 })

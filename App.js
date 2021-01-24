@@ -7,7 +7,7 @@ import { Button, StyleSheet,Text,View,TextInput } from 'react-native';
 import Header from './components/Header'
 import Home from './components/Home';
 import Table from './components/Table';
-import Game from './components/Game';
+import Game from './components/Jouer';
 
 
 

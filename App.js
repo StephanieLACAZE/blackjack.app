@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { Button, StyleSheet,Text,View,TextInput } from 'react-native';
+import { Button, StyleSheet,View, Text, TextInput } from 'react-native';
 
 
 
@@ -8,7 +8,7 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Page1 from './components/Page1';
 import Page2 from './components/Page2';
-import Page3 from './components/Page3';
+
 
 
 

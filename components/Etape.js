@@ -8,7 +8,7 @@ export default function Etape(props){
     const[etape, setEtape] = useState(undefined);
 
      useEffect(function(){
-        axios.get("http://localhost:8000/question/1" + props.id)  
+        axios.get("http://localhost:8000/question/" + props.id)  
         .then(function(reponse){ 
             setEtape (reponse.data); 
         })
